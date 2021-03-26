@@ -32,10 +32,14 @@ iloscpoteg = int(input('Podaj ilość kolejnych potęg do wygenerowania: '))
 print(potegi(podstawa, iloscpoteg))
 
 print('\nZadanie5')
+
+
 def wektor(x):
-    wektor = [x for x in range(x+1)]
+    wektor = [x for x in range(x + 1)]
     wektor.reverse()
     result = np.diag(wektor)
     return result
+
+
 dlugoscwektora = int(input('Podaj długość wektora: '))
 print(wektor(dlugoscwektora))
